@@ -1,0 +1,66 @@
+const jobSkills = {
+    "Data Scientist": [
+        "python",
+        "sql",
+        "machine learning",
+        "statistics",
+        "pandas",
+        "numpy",
+        "data visualization"
+    ],
+
+    "Data Analyst": [
+        "excel",
+        "sql",
+        "power bi",
+        "tableau",
+        "python",
+        "data analysis"
+    ],
+
+    "Web Developer": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "nodejs",
+        "mongodb"
+    ]
+};
+
+function analyzeResume() {
+
+    let role = document.getElementById("role").value;
+    let resume = document.getElementById("resume").value.toLowerCase();
+
+    let requiredSkills = jobSkills[role];
+
+    let matchedSkills = [];
+    let missingSkills = [];
+
+    requiredSkills.forEach(skill => {
+        if(resume.includes(skill.toLowerCase())){
+            matchedSkills.push(skill);
+        }
+        else{
+            missingSkills.push(skill);
+        }
+    });
+
+    let score =
+        (matchedSkills.length / requiredSkills.length) * 100;
+
+    document.getElementById("output").innerHTML =
+    `
+    <h2>ATS Score: ${score.toFixed(2)}%</h2>
+
+    <h3>Required Skills</h3>
+    <p>${requiredSkills.join(", ")}</p>
+
+    <h3>Matched Skills</h3>
+    <p>${matchedSkills.join(", ") || "None"}</p>
+
+    <h3>Missing Skills</h3>
+    <p>${missingSkills.join(", ") || "None"}</p>
+    `;
+}
