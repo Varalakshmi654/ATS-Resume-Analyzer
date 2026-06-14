@@ -3,26 +3,7 @@
 
 **A browser-based tool that helps job seekers optimize their resumes by comparing them against role-specific skill requirements — and scoring them like a real ATS.**
 
-[🚀 Live Demo](#) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
 
-</div>
-
----
-
-## 📑 Table of Contents
-
-- [📌 Project Overview](#-project-overview)
-- [✨ Features](#-features)
-- [🛠️ Technologies Used](#️-technologies-used)
-- [📁 Project Structure](#-project-structure)
-- [⚙️ Installation & Usage](#️-installation--usage)
-- [📊 How the ATS Score is Calculated](#-how-the-ats-score-is-calculated)
-- [📸 Screenshots](#-screenshots)
-- [🔮 Future Enhancements](#-future-enhancements)
-- [🎓 Learning Outcomes](#-learning-outcomes)
-- [👤 Author](#-author)
-
----
 
 ## 📌 Project Overview
 
@@ -136,33 +117,6 @@ ATS Score (%) = (Number of Matched Skills ÷ Total Required Skills) × 100
 
 ---
 
-## 📸 Screenshots
-
-> 📌 *Replace the placeholder text below with actual screenshots after deployment.*
-
-### 🏠 Home Screen — Role Selection
-```
-[ Screenshot: Home page with job role dropdown and required skills panel ]
-```
-![Home Screen](assets/screenshots/home.png)
-
----
-
-### 📊 Results View — ATS Score & Skill Breakdown
-```
-[ Screenshot: Score percentage, matched skills in green, missing skills in red ]
-```
-![Results View](assets/screenshots/results.png)
-
----
-
-### 📱 Mobile View — Responsive Layout
-```
-[ Screenshot: App displayed on a mobile screen ]
-```
-![Mobile View](assets/screenshots/mobile.png)
-
----
 
 ## 🔮 Future Enhancements
 
