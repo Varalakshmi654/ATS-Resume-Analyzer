@@ -86,46 +86,7 @@ ats-resume-analyzer/
 
 ---
 
-## ⚙️ Installation & Usage
-
-### Option 1 — Use the Live Demo (Easiest)
-
-👉 **[Click here to open the app](#)** *(replace with your GitHub Pages URL)*
-
-No installation required. Open the link and start analyzing right away.
-
----
-
-### Option 2 — Run Locally
-
-**Step 1:** Clone this repository
-
-```bash
-git clone https://github.com/your-username/ats-resume-analyzer.git
-```
-
-**Step 2:** Navigate into the project folder
-
-```bash
-cd ats-resume-analyzer
-```
-
-**Step 3:** Open the app in your browser
-
-```bash
-# Simply open index.html in any modern browser
-# On macOS:
-open index.html
-
-# On Windows:
-start index.html
-
-# Or drag and drop index.html into your browser window
-```
-
-That's it — no server, no dependencies, no setup.
-
----
+-
 
 ### 📝 How to Use the App
 
