@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ATS Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>ATS Resume Analyzer</h1>
+
+    <label>Select Job Role</label>
+    <select id="role">
+        <option value="Data Scientist">Data Scientist</option>
+        <option value="Data Analyst">Data Analyst</option>
+        <option value="Web Developer">Web Developer</option>
+    </select>
+
+    <label>Paste Resume Text</label>
+    <textarea id="resume" placeholder="Paste resume here..."></textarea>
+
+    <button onclick="analyzeResume()">Analyze Resume</button>
+
+    <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
