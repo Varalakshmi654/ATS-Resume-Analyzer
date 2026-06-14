@@ -1,4 +1,4 @@
-# 📄 ATS Resume Analyzer
+# 📄 ATS Resume Analyzer 
 
 
 **A browser-based tool that helps job seekers optimize their resumes by comparing them against role-specific skill requirements — and scoring them like a real ATS.**
